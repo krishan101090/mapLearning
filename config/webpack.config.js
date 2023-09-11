@@ -346,12 +346,8 @@ module.exports = function (webpackEnv) {
           exclude: /@babel(?:\/|\\{1,2})runtime/,
           test: /\.(js|mjs|jsx|ts|tsx|css)$/,
           loader: require.resolve("source-map-loader"),
-        },
-        {
-          test: /\.js$/,
           include: /node_modules\/mapbox-gl/,
           use: ["source-map-loader"],
-          enforce: "pre",
         },
         {
           // "oneOf" will traverse all following loaders until one will
