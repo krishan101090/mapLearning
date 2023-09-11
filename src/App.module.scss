@@ -41,3 +41,10 @@
   margin-left: 10px;
   cursor: pointer;
 }
+
+.cardComponent {
+  position: absolute;
+  z-index: 99999;
+  left: 0;
+  top: 20px;
+}

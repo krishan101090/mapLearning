@@ -2,6 +2,7 @@ import React, { useRef, useCallback } from "react";
 import Map, { Source, Layer, Marker } from "react-map-gl";
 import styles from "./App.module.scss";
 import logo from "./dubai.png";
+import CardComponent from "./CardComponent";
 
 const UAE_CITIES = [
   { city: "Dubai", state: "Dubai", longitude: 55.274288, latitude: 25.197525 },
@@ -189,6 +190,9 @@ function App() {
             </Marker>
           ))}
           <ControlPanel onSelectCity={onSelectCity} />
+          <div className={styles.cardComponent}>
+            <CardComponent />
+          </div>
         </Map>
       </div>
     </div>

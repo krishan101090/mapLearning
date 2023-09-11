@@ -1,0 +1,42 @@
+// Card.module.scss
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5); // black with 70% opacity
+  color: white; // text color
+  // border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 16px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .cardTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.subCard {
+  background-color: rgba(0, 0, 0, 0.6); // black with 70% opacity
+  color: white; // text color
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 8px;
+  margin-top: 8px;
+  width: 40%;
+  margin: 5px;
+
+  .subCardTitle {
+    font-size: 14px;
+  }
+  .subCardSubtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
