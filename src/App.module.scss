@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  height: 100px;
+}
+
+.map {
+  flex: 1;
+}
+
+.controlpanel {
+  position: absolute;
+  top: 20px;
+  z-index: 99999;
+  right: 20px;
+}
+
+.controlpanel {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.label {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+}
