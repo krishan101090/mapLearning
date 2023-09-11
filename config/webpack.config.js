@@ -349,7 +349,7 @@ module.exports = function (webpackEnv) {
         },
         {
           test: /\.js$/,
-          include: /node_modules\/mapbox-gl/,
+          include: /node_modules\/react-map-gl/,
           use: ["source-map-loader"],
           enforce: "pre",
         },
