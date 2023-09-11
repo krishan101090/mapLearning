@@ -1,6 +1,5 @@
 import React, { useRef, useCallback } from "react";
 import Map, { Source, Layer, Marker } from "react-map-gl";
-import "mapbox-gl/dist/mapbox-gl.css";
 import styles from "./App.module.scss";
 import logo from "./dubai.png";
 
